@@ -1,5 +1,4 @@
 
-
 function compute() {
     // Reseting the result span for cleaning purposes
     var resultSpan = document.getElementById("result");
@@ -25,10 +24,6 @@ function compute() {
         resultSpan.innerHTML += "<p>You will receive an amount of "+"<mark>"+interest+"</mark>"+",</p>";
         resultSpan.innerHTML += "<p>in the year "+"<mark>"+futureYear+"</mark>"+"</p>"; 
     }
-
-    
-
-    
 
 };
 
